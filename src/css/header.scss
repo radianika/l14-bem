@@ -1,0 +1,36 @@
+.logo {
+	width: 130px;
+	height: 56px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padiing: 20px;
+	align-items: center;
+	line-height: 88px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&--rside {
+		justify-content: flex-end;
+	}
+}
+.nav__item{
+	&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 0;
+			height: 20px;
+			background: rgba(5, 196, 222, 0.5);
+			transition: all 2s ease;
+		}
+		&:hover:before {
+			width: 100%;
+		}
+}
