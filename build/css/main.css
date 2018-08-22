@@ -128,5 +128,5 @@ i {
 section {
   width: 100%;
   height: 300px;
-  background: url(img/u-boat-img.jpg) 50% 50% no-repeat;
+  background: url(../img/u-boat-img.jpg) 50% 50% no-repeat;
   background-size: cover; }
